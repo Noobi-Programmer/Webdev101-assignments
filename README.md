@@ -7,9 +7,9 @@ folder and is deployed as a standalone site through GitHub Pages.
 
 | Assignment | Source Code | Live Demo |
 |---|---|---|
-| Assignment 01 | [ass-01](https://github.com/Noobi-Programmer/Webdev101---assignments/tree/main/ass-01) | [View Demo](https://noobi-programmer.github.io/Webdev101---assignments/ass-01/) |
-| Assignment 02 - Flexbox Quest | [ass-02](https://github.com/Noobi-Programmer/Webdev101---assignments/tree/main/ass-02) | [View Demo](https://noobi-programmer.github.io/Webdev101---assignments/ass-02/) |
-| Portfolio | [Portfolio](https://github.com/Noobi-Programmer/Webdev101---assignments/tree/main/Portfolio) | [View Demo](https://noobi-programmer.github.io/Webdev101---assignments/Portfolio/) |
+| Assignment 01 | [ass-01](https://github.com/Noobi-Programmer/Webdev101-assignments/tree/main/ass-01) | [View Demo](https://noobi-programmer.github.io/Webdev101-assignments/ass-01/) |
+| Assignment 02 - Flexbox Quest | [ass-02](https://github.com/Noobi-Programmer/Webdev101-assignments/tree/main/ass-02) | [View Demo](https://noobi-programmer.github.io/Webdev101-assignments/ass-02/) |
+| Portfolio | [Portfolio](https://github.com/Noobi-Programmer/Webdev101-assignments/tree/main/Portfolio) | [View Demo](https://noobi-programmer.github.io/Webdev101-assignments/Portfolio/) |
 
 ## Project Structure
 
