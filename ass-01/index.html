@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .title{
+            color:aliceblue;
+            text-align: center;
+        }
+        #course-reg{
+            color:burlywood;
+            text-align: center;
+        }
+        a{
+            color:aliceblue;
+            text-decoration: none;
+            font-size: large;
+        }
+        section{
+            color:aliceblue
+        }
+        .navbar{
+            display: flex;
+            justify-content: center; 
+            gap: 30px; /* Adjust this value to increase or decrease the equal space between links */
+            padding: 20px 0; 
+        }
+        table{
+            background-color: aliceblue;
+            border-collapse: collapse;
+            border-radius: 35px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0 auto;
+        }
+        th, td{
+            color:black;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 8px;
+            border: 1px solid;
+        }
+    </style> 
+</head>
+<body>
+    <header><h1 class="title">Student Portal</h1></header>
+    <hr>
+    <nav class="navbar"> 
+        <strong><a href="#home">Home</a></strong>
+        &nbsp;&nbsp;&nbsp;
+        <a href="#profile">Profile</a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="#courses">Courses</a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="#register">Register</a>
+        &nbsp;&nbsp;&nbsp;
+    </nav>
+    <hr>
+    <main>
+        <section id="home">
+                <h2>My Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>MySQL</li>
+
+                    </ul>
+        </section>
+        <hr>
+        <section id="profile">
+            <table class="s-table">
+            <caption><h2>Student Profile</h2></caption>
+            <thead>
+                <tr>
+                    <th>Field</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>Rahul Sharma</td>
+                </tr>
+                <tr>
+                    <td>Student ID</td>
+                    <td>24BCE1001</td>
+                </tr>
+                <tr>
+                    <td>Program</td>
+                    <td>Computer Science</td>
+                </tr>
+                <tr>
+                    <td>Year</td>
+                    <td>1st Year</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>rahul@example.com</td>
+                </tr>
+            </tbody>
+            </table>
+        </section><br><br>
+        <hr>
+        <section id="courses">
+            <table class="Weekly-Schedule">
+        <caption ><h2>Weekly Schedule</h2></caption>
+        <thead>
+            <tr>
+                <td>Day/Time</td>
+                <th>9:00 AM</th>
+                <th>11:00 AM</th>
+                <th>2:00 PM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <td>HTML</td>
+                <td>Mathematics</td>
+                <td>DSA</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>CSS</td>
+                <td>DBMS</td>
+                <td>English</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>Javascript</td>
+                <td>DSA</td>
+                <td>Mathematics</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td>DBMS</td>
+                <td>HTML</td>
+                <td>Project</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>DSA</td>
+                <td>CSS</td>
+                <td>Workshop</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><hr>
+        </section>
+        <section id="register">
+            <form class="course">
+                <h2 id="course-reg">Course Registration</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter Name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email"  id="email" placeholder="Enter your Email">
+                <br><br>
+                <label for="SID">Student ID:</label>
+                <input type="text" id="SID" placeholder="Enter Name">
+                <br><br>
+                <label for="course"><h3>Select course</h3></label>
+                <select id="course" name="select">
+                    <option value="null">Select Course</option>
+                    <option value="HTML & CSS">HTML & CSS</option>
+                    <option value="JS">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="Data Structures">Data Structures</option>
+                    <option value="Database Management">Database management</option>
+                </select>
+                <br><br>
+                <h3><label for="lmode">Preferred learning Mode:</label></h3>&nbsp;
+                <label for="Online">Online</label>
+                <input type="radio" value="Online" id="online-mode" name="learning-mode">
+                <label for="Offine">Offline</label>
+                <input type="radio" value="Offline" id="offline-mode" name="learning-mode">
+                <br><br>
+                <h3>Skills You Already Know</h3 >
+                <label for="html">HTML</label>
+                <input name="html" type="checkbox" value="HTML"><br>
+                <label for="css">CSS</label>
+                <input name="css" type="checkbox" value="CSS"><br>
+                <label for="js">JavaScript</label>
+                <input name="js" type="checkbox" value="JavaScript"><br>
+                <label for="py">Python</label>
+                <input name="py" type="checkbox" value="Python"><br>
+                <br><br>
+                <input type="submit"> &nbsp;&nbsp;
+                <input type="reset">
+            </form>
+        </section>
+        <br><br><hr>
+    </main>
+    <footer style="color:aliceblue; text-align: center" >&lt;&lt;&lt;&lt; <strong>By Abinivesh</strong> &gt;&gt;&gt;&gt;</footer>
+</body>
+</html>

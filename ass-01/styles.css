@@ -1,0 +1,46 @@
+body{
+    background: #000;
+    ;
+}
+h1{
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+}
+.navbar {
+    padding: 20px;
+    font-size: 20px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+/* Optional: Clean up the link styles */
+.navbar a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: white; /* Assuming you want to keep the white text from your screenshot */
+  font-size: 18px;
+}
+caption{color: white;}
+
+.s-table{
+    background-color: aliceblue;
+    border-collapse: collapse;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 8px;
+    margin: 0 auto;
+    
+}
+th, td{
+    background-color: aliceblue;
+    border-collapse: collapse;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid;
+}
+section[class="myskills"]{
+    color:aliceblue;
+}
+form{color:aliceblue}
